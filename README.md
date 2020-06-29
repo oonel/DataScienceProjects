@@ -3,7 +3,7 @@
 Here I will be hosting a range of projects I have worked on to share my methods and code.
 The format is as follows:
 - Most of the content will be presented in Jupyter Notebook format.
-- This page will provide a brief overview of the project and a link
+- This page will provide a brief overview of the project and a link to the relevant Jupyter Notebook
 - Data will be downloadable and the work reproducible
 
 I use the [editor on GitHub](https://github.com/oonel/TestForWebsite/edit/master/README.md) to maintain and preview the content for this website in Markdown files.
