@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
+
 def download_data_from_s3(bucket_name: str, file_key: str) -> pd.DataFrame:
     """
     Download a CSV file from an S3 bucket and load it into a DataFrame.
@@ -32,7 +33,7 @@ def download_data_from_s3(bucket_name: str, file_key: str) -> pd.DataFrame:
         return data
 
     except Exception as e:
-        print("""There is no actual data on S3- this is just for illustrative purposes. 
+        print("""There is no actual data on S3- this is just for illustrative purposes.
               Read from space_mission_data.csv instead if you wish to test the code.""")
         return None
 
